@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Food Menu</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+      <div id="preloader"></div>
+      <div class="body">
+        
+        <section class = "menu">
+          <div class = "menu-container">
+            <div class = "menu-head">
+              <h2>RITY'S EATERY</h2>
+              <p>Rity Eatery <br>We cook all kind of Dishes ranging from Local Dishes, Intercontinental Dishes, Smoothies, hot and fresh made by the best Chefs in town and highly Trained chefs Drinks; all at affordable Prizes Location : No 2 Barnawa close<br> Kaduna, Kaduna state</p>
+              
+            </div>
+            <div class = "menu-btns">
+              <button type = "button" class = "menu-btn active-btn" id = "featured">featured</button>
+              <button type = "button" class = "menu-btn" id = "today-special">today's special</button>
+              <button type = "button" class = "menu-btn" id = "new-arrival">new arrivals</button>
+            </div>
+    
+            <div class = "food-items">
+              <!-- item -->
+              <div class = "food-item featured">
+                <div class = "food-img">
+                  <img src = "food/fried.jpg" alt = "Fried Rice">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">Fried Rice</h2>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">2500.00</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Categories: <span>Featured</span></p>
+                  <a href="FriedRice.html"><div id="order">
+                      <p>ORDER</p>
+                  </div></a>
+                </div>
+              </div>
+              <!-- end of item -->
+    
+              <!-- item -->
+              <div class = "food-item today-special">
+                <div class = "food-img">
+                  <img src = "food/vanilla.jpg" alt = "vanilla">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">Vanilla Smoothie</h2>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">1000.00</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Categories: <span>Today's Special</span></p>
+                  <a href="VanillaSmoothie.html"><div id="order">
+                    <p>ORDER</p>
+                </div></a>
+                </div>
+              </div>
+              <!-- end of item -->
+    
+              <!-- item -->
+              <div class = "food-item new-arrival">
+                <div class = "food-img">
+                  <img src = "food/pizz.jpg" alt = "pizza">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">Pizza</h2>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">5000.00</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Categories: <span>New Arrivals</span></p>
+                  <a href="Pizza.html"><div id="order">
+                    <p>ORDER</p>
+                </div></a>
+                </div>
+              </div>
+              <!-- end of item -->
+    
+              <!-- item -->
+              <div class = "food-item featured">
+                <div class = "food-img">
+                  <img src = "food/jollof.jpg" alt = "jollof">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">Nigerian Jollof Rice</h2>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">2700.00</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Categories: <span>Featured</span></p>
+                  <a href="JollofRice.html"><div id="order">
+                    <p>ORDER</p>
+                </div></a>
+                </div>
+              </div>
+              <!-- end of item -->
+    
+              <!-- item -->
+              <div class = "food-item today-special">
+                <div class = "food-img">
+                  <img src = "food/orange.jpg" alt = "Orange Smoothie">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">Orange Smoothie</h2>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">1500.00</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Categories: <span>Today's Special</span></p>
+                  <a href="OrangeSmoothie.html"><div id="order">
+                    <p>ORDER</p>
+                </div></a>
+                </div>
+              </div>
+              <!-- end of item -->
+    
+              <!-- item -->
+              <div class = "food-item new-arrival">
+                <div class = "food-img">
+                  <img src = "food/samo.jpg" alt = "Samosa">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">Samosa</h2>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">500.00</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Categories: <span>New Arrivals</span></p>
+                  <a href="Samosas.html"><div id="order">
+                    <p>ORDER</p>
+                </div></a>
+                </div>
+              </div>
+              <!-- end of item -->
+    
+              <!-- item -->
+              <div class = "food-item featured">
+                <div class = "food-img">
+                  <img src = "food/okra.jpg" alt = "Okra Soup">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">Okra Soup</h2>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">500.00</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Categories: <span>Featured</span></p>
+                  <a href="Okra.html"><div id="order">
+                    <p>ORDER</p>
+                </div></a>
+                </div>
+              </div>
+              <!-- end of item -->
+    
+              <!-- item -->
+              <div class = "food-item today-special">
+                <div class = "food-img">
+                  <img src = "food/pine.jpg" alt = "pineapple smoothie">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">pineapple</h2>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">1200.00</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Categories: <span>Today's Special</span></p>
+                  <a href="Pineapple.html"><div id="order">
+                    <p>ORDER</p>
+                </div></a>
+                </div>
+              </div>
+              <!-- end of item -->
+    
+              <!-- item -->
+              <div class = "food-item new-arrival">
+                <div class = "food-img">
+                  <img src = "food/dou.jpg" alt = "doughnuts">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">doughnuts</h2>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">350.00</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Categories: <span>New Arrivals</span></p>
+                  <a href="Doughnuts.html"><div id="order">
+                    <p>ORDER</p>
+                </div></a>
+                </div>
+              </div>
+              <!-- end of item -->
+    
+              <!-- item -->
+              <div class = "food-item featured">
+                <div class = "food-img">
+                  <img src = "food/vegis.jpg" alt = "vegis">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">Vegetable Stew</h2>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">1000.00</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Categories: <span>Featured</span></p>
+                  <a href="VegeStew.html"><div id="order">
+                    <p>ORDER</p>
+                </div></a>
+                </div>
+              </div>
+              <!-- end of item -->
+    
+              <!-- item -->
+              <div class = "food-item today-special">
+                <div class = "food-img">
+                  <img src = "food/straw.jpg" alt = "bur">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">Strawberry Smoothie</h2>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">500.00</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Categories: <span>Today's Special</span></p>
+                  <a href="StrawberrySmoothie.html"><div id="order">
+                    <p>ORDER</p>
+                </div></a>
+                </div>
+              </div>
+              <!-- end of item -->
+    
+              <!-- item -->
+              <div class = "food-item new-arrival">
+                <div class = "food-img">
+                  <img src = "food/cookie.jpg" alt = "cookies">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">Cookies</h2>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">1500.00</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Categories: <span>New Arrivals</span></p>
+                  <a href="Cookies.html"><div id="order">
+                    <p>ORDER</p>
+                </div></a>
+                </div>
+              </div>
+              <!-- end of item -->
+    
+              <!-- item -->
+              <div class = "food-item featured">
+                <div class = "food-img">
+                  <img src = "food/bitter leaf.jpg" alt = "bitter leaf Soup">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">Bitter Leaf Soup</h2>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">1200.00</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Categories: <span>Featured</span></p>
+                  <a href="BitterLeaf.html"><div id="order">
+                    <p>ORDER</p>
+                </div></a>
+                </div>
+              </div>
+              <!-- end of item -->
+    
+              <!-- item -->
+              <div class = "food-item today-special">
+                <div class = "food-img">
+                  <img src = "food/choco.jpg" alt = "Chocolate">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">Chocolate Smoothie</h2>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">1200.00</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Categories: <span>Today's Special</span></p>
+                  <a href="ChocoSmoothie.html"><div id="order">
+                    <p>ORDER</p>
+                </div></a>
+                </div>
+              </div>
+              <!-- end of item -->
+    
+              <!-- item -->
+              <div class = "food-item new-arrival">
+                <div class = "food-img">
+                  <img src = "food/sha.jpg" alt = "sharwama">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">Sharwama</h2>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">2500.00</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Categories: <span>New Arrivals</span></p>
+                  <a href="Sharwarma.html"><div id="order">
+                    <p>ORDER</p>
+                </div></a>
+                </div>
+              </div>
+              <!-- end of item -->
+    
+              <!-- item -->
+              <div class = "food-item featured">
+                <div class = "food-img">
+                  <img src = "food/amala.jpg" alt = "amala">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">Amala</h2>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">3000.00</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Categories: <span>Featured</span></p>
+                  <a href="amala.html"><div id="order">
+                    <p>ORDER</p>
+                </div></a>
+                </div>
+              </div>
+              <!-- end of item -->
+    
+              <!-- item -->
+              <div class = "food-item today-special">
+                <div class = "food-img">
+                  <img src = "food/banana.jpg" alt = "banana">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">Banana Smoothie</h2>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">2500.00</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Categories: <span>Today's Special</span></p>
+                  <a href="BananaSmoothie.html"><div id="order">
+                    <p>ORDER</p>
+                </div></a>
+                </div>
+              </div>
+              <!-- end of item -->
+    
+              <!-- item -->
+              <div class = "food-item new-arrival">
+                <div class = "food-img">
+                  <img src = "food/bur.jpg" alt = "burg">
+                </div>
+                <div class = "food-content">
+                  <h2 class = "food-name">Burger</h2>
+                  <div class="content">
+                    <div class="header">
+                        <h2>Modal pop up</h2>
+                        <label for="click" class="fas fa-times"></label>
+                    </div>
+                    <label for="click" class="facheck"></label>
+                    <p>Lorem ipsum dolar sit amet, consect</p>
+                    <div class="line"></div>
+                    <label for="click" class="close-btn">close</label>
+                </div>
+                  <div class = "line"></div>
+                  <h3 class = "food-price">2600.00</h3>
+                  <ul class = "rating">
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "fas fa-star"></i></li>
+                    <li><i class = "far fa-star"></i></li>
+                  </ul>
+                  <p class = "category">Categories: <span>New Arrivals</span></p>
+                  <a href="Burger.html"><div id="order">
+                    <p>ORDER</p>
+                </div></a>
+                </div>
+              </div>
+              <!-- end of item -->
+            </div>
+          </div>
+        </section>
+      </div>  
+    
+      <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Order</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="order.css">
+    <!-- fontawesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <div class="body">
+        <div id="orderform">
+            <div id="formimg">
+                <img src="food/pizz.jpg">
+                <div id="Image-Text">
+                    <h2>Pizza</h2>
+                    <h3>5000.00</h3>
+                    <ul class = "rating">
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "fas fa-star"></i></li>
+                        <li><i class = "far fa-star"></i></li>
+                    </ul>
+                    <section class="category">Categories: <span>Featured</span></section>
+                </div>
+            </div>
+            <div id="list">
+                <p>
+                    <label aria-disabled="true" for="type">Flavor</label>
+                    <select name="type" id="type">
+                        <option>Cheese Pizza</option>
+                        <option>Pepperoni Pizza</option>
+                        <option>Meat Pizza</option>
+                        <option>Chicken Pizza</option>
+                        <option>Mushroom Pizza</option>
+                        <option>Veggie Pizza</option>
+
+                    </select>
+                </p>
+                <p>
+                    <label for="quantity">Quantity</label>
+                    <select name="quantity" id="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="more...">more...</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="request"></label>
+                    <textarea name="request" id="request" cols="40" rows="10" placeholder="Type Special Request for the Chef Here"></textarea>
+                </p>
+            </div>
+            <!-- <button id="order">ORDER</button> -->
+            <div class="container">
+                <button type="submit" class="btn" id="order" onclick="openPopup()">ORDER</button>
+                <div class="popup" id="popup">
+                    <img src="food/bur.jpg"> <!-- put Check image -->
+                    <h2>Thank You!</h2>
+                    <p>Your Order Has Been Successfully Placed!</p>
+                    <button type="button" class="ok" onclick="closePopup()">Ok</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="order.js"></script>
+  </body>
+</html>
